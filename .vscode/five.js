@@ -3,3 +3,5 @@ console.log(eids)
 console.log(eids[0])
 console.log(eids[-1])
 console.log(eids[5])
+delete eids
+console.log
