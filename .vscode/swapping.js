@@ -9,3 +9,4 @@ for(let i=0;i<=a.length-1;i++){
     }
 }
 console.log("ascending order of list is:",a.join(","));
+
