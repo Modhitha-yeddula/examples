@@ -4,6 +4,20 @@ class Account{
         this.acc_Name=name
         this.acc_Bal=amount
     }
+    open_Acc(){
+        console.log("Account opened");
+        
+    }
+    deposit_Amount(amount){
+        this.amount=amount
+
+    }
+    withdrawl(amount){
+
+    }
+    get_Bal(){
+        return 0;
+    }
 }
 let a1=new Account(101,"prudhvi",26000)
 console.log(a1);
